@@ -839,7 +839,7 @@
                 </div>
                 
                 <div class="about-image" data-aos="fade-left">
-                    <img src="drone-sustentavel.jpg" alt="Drone do Projeto SIP ROBOTICS">
+                    <img src="tecn.png" alt="Drone do Projeto SIP ROBOTICS">
                 </div>
             </div>
         </div>
@@ -1013,64 +1013,228 @@
         </div>
     </section>
 
-    <!-- Na seção de Galeria, substitua por: -->
-<section class="gallery" id="gallery">
-    <div class="container">
-        <h2 class="section-title" data-aos="fade-up">Galeria do Projeto</h2>
-        
-        <div class="gallery-grid">
-            <!-- Imagem 1 - Arara -->
-            <div class="gallery-item" data-aos="fade-up" data-aos-delay="100" onclick="openModal('arara.png')">
-                <img src="arara.png" alt="Arara do projeto SIP ROBOTICS">
-                <div class="gallery-overlay">
-                    <i class="fas fa-search-plus"></i>
-                </div>
-            </div>
+    <!-- Galeria -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Galeria do Projeto</h2>
             
-            <!-- Imagem 2 - Boto -->
-            <div class="gallery-item" data-aos="fade-up" data-aos-delay="200" onclick="openModal('boto.png')">
-                <img src="boto.png" alt="Boto cor-de-rosa do projeto">
-                <div class="gallery-overlay">
-                    <i class="fas fa-search-plus"></i>
+            <div class="gallery-grid">
+                <!-- Imagem 1 - Arara -->
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="100" onclick="openModal('arara.png')">
+                    <img src="arara.png" alt="Arara do projeto SIP ROBOTICS">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
                 </div>
-            </div>
-            
-            <!-- Imagem 3 - Robô -->
-            <div class="gallery-item" data-aos="fade-up" data-aos-delay="300" onclick="openModal('rotbot.png')">
-                <img src="rotbot.png" alt="Robô do projeto em ação">
-                <div class="gallery-overlay">
-                    <i class="fas fa-search-plus"></i>
+                
+                <!-- Imagem 2 - Boto -->
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="200" onclick="openModal('boto.png')">
+                    <img src="boto.png" alt="Boto cor-de-rosa do projeto">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
                 </div>
-            </div>
-            
-            <!-- Imagem 4 - Onça -->
-            <div class="gallery-item" data-aos="fade-up" data-aos-delay="400" onclick="openModal('onca.png')">
-                <img src="onca.png" alt="Onça pintada - inspiração do projeto">
-                <div class="gallery-overlay">
-                    <i class="fas fa-search-plus"></i>
+                
+                <!-- Imagem 3 - Robô -->
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="300" onclick="openModal('rotbot.png')">
+                    <img src="rotbot.png" alt="Robô do projeto em ação">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
                 </div>
-            </div>
-            
-            <!-- Imagem 5 - Natureza/Tecnologia -->
-            <div class="gallery-item" data-aos="fade-up" data-aos-delay="500" onclick="openModal('images.png')">
-                <img src="images.png" alt="Integração natureza e tecnologia">
-                <div class="gallery-overlay">
-                    <i class="fas fa-search-plus"></i>
+                
+                <!-- Imagem 4 - Onça -->
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="400" onclick="openModal('onca.png')">
+                    <img src="onca.png" alt="Onça pintada - inspiração do projeto">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
                 </div>
-            </div>
-            
-            <!-- Imagem 6 - Ícone de tecnologia -->
-            <div class="gallery-item" data-aos="fade-up" data-aos-delay="600" onclick="openModal('tecnologia.png')">
-                <img src="tecnologia.png" alt="Componentes tecnológicos">
-                <div class="gallery-overlay">
-                    <i class="fas fa-search-plus"></i>
+                
+                <!-- Imagem 5 - Natureza/Tecnologia -->
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="500" onclick="openModal('images.png')">
+                    <img src="images.png" alt="Integração natureza e tecnologia">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                
+                <!-- Imagem 6 - Ícone de tecnologia -->
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="600" onclick="openModal('tecn.png')">
+                    <img src="tecn.png" alt="Componentes tecnológicos">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Na seção Sobre o Projeto, atualize a imagem: -->
-<div class="about-image" data-aos="fade-left">
-    <img src="drone-sustentavel.png" alt="Drone do Projeto SIP ROBOTICS">
-</div>
+    <!-- Modal para imagens -->
+    <div class="modal" id="imageModal">
+        <span class="close-modal" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <img id="modalImage" src="" alt="">
+        </div>
+    </div>
+
+    <!-- Contato -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Contato</h2>
+            
+            <div class="contact-container" data-aos="fade-up">
+                <div class="contact-info">
+                    <h3>Entre em contato conosco</h3>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>EETEPA Prof.º Sebastião Oliveira Rocha - Salvaterra/PA</p>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>siprobotics@gmail.com</p>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>(91) 99999-9999</p>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fab fa-instagram"></i>
+                        <p>@eetepa_sip_oficial</p>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nome</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Assunto</label>
+                            <input type="text" id="subject" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" class="form-control" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <a href="#" class="footer-logo">SIP ROBOTICS</a>
+                
+                <ul class="footer-links">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#about">Projeto</a></li>
+                    <li><a href="#team">Equipe</a></li>
+                    <li><a href="#coach">Técnica</a></li>
+                    <li><a href="#community">Comunidade</a></li>
+                    <li><a href="#gallery">Galeria</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </div>
+            
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com/eetepa_sip_oficial"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 SIP ROBOTICS. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        // Inicializa AOS (Animate On Scroll)
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+        
+        // Barra de progresso ao rolar
+        window.onscroll = function() {
+            updateProgressBar();
+            updateNavbar();
+        };
+        
+        function updateProgressBar() {
+            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = (winScroll / height) * 100;
+            document.getElementById("progressBar").style.width = scrolled + "%";
+        }
+        
+        function updateNavbar() {
+            if (window.scrollY > 100) {
+                document.querySelector('.navbar').classList.add('scrolled');
+            } else {
+                document.querySelector('.navbar').classList.remove('scrolled');
+            }
+        }
+        
+        // Menu mobile
+        document.getElementById('mobileMenuBtn').addEventListener('click', function() {
+            const navLinks = document.getElementById('navLinks');
+            if (navLinks.style.display === 'flex') {
+                navLinks.style.display = 'none';
+            } else {
+                navLinks.style.display = 'flex';
+            }
+        });
+        
+        // Modal da galeria
+        function openModal(imageSrc) {
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImage');
+            modal.style.display = 'flex';
+            modalImg.src = imageSrc;
+        }
+        
+        function closeModal() {
+            document.getElementById('imageModal').style.display = 'none';
+        }
+        
+        // Fechar modal ao clicar fora da imagem
+        window.onclick = function(event) {
+            const modal = document.getElementById('imageModal');
+            if (event.target == modal) {
+                modal.style.display = 'none';
+            }
+        }
+        
+        // Formulário de contato
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Mensagem enviada com sucesso! Entraremos em contato em breve.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
