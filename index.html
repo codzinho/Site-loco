@@ -989,267 +989,60 @@
             </div>
         </div>
     </section>
-    
+
     <!-- Galeria -->
-    <section class="gallery" id="gallery">
-        <div class="container">
-            <h2 class="section-title" data-aos="fade-up">Galeria do Projeto</h2>
-            
-            <div class="gallery-grid">
-                <!-- Imagem 1 -->
-                <div class="gallery-item" data-aos="fade-up" data-aos-delay="100" onclick="openModal('https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3')">
-                    <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3" alt="Robô TEXTOX em ação">
-                    <div class="gallery-overlay">
-                        <i class="fas fa-search-plus"></i>
-                    </div>
+<section class="gallery" id="gallery">
+    <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Galeria do Projeto</h2>
+        
+        <div class="gallery-grid">
+            <!-- Imagem 1 - Arara -->
+            <div class="gallery-item" data-aos="fade-up" data-aos-delay="100" onclick="openModal('arara.png')">
+                <img src="arara.png" alt="Arara do projeto TEXTOX">
+                <div class="gallery-overlay">
+                    <i class="fas fa-search-plus"></i>
                 </div>
-                
-                <!-- Imagem 2 -->
-                <div class="gallery-item" data-aos="fade-up" data-aos-delay="200" onclick="openModal('https://images.unsplash.com/photo-1593508512255-86ab42a8e620?ixlib=rb-4.0.3')">
-                    <img src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?ixlib=rb-4.0.3" alt="Equipe trabalhando">
-                    <div class="gallery-overlay">
-                        <i class="fas fa-search-plus"></i>
-                    </div>
-                </div>
-                
-                <!-- Imagem 3 -->
-                <div class="gallery-item" data-aos="fade-up" data-aos-delay="300" onclick="openModal('https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3')">
-                    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3" alt="Componentes eletrônicos">
-                    <div class="gallery-overlay">
-                        <i class="fas fa-search-plus"></i>
-                    </div>
-                </div>
-                
-                <!-- Imagem 4 -->
-                <div class="gallery-item" data-aos="fade-up" data-aos-delay="400" onclick="openModal('https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-4.0.3')">
-                    <img src="https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-4.0.3" alt="Programação do robô">
-                    <div class="gallery-overlay">
-                        <i class="fas fa-search-plus"></i>
-                    </div>
-                </div>
-                
-                <!-- Imagem 5 -->
-                <div class="gallery-item" data-aos="fade-up" data-aos-delay="500" onclick="openModal('https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-4.0.3')">
-                    <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-4.0.3" alt="Testes do robô">
-                    <div class="gallery-overlay">
-                        <i class="fas fa-search-plus"></i>
-                    </div>
-                </div>
-                
-                <!-- Imagem 6 -->
-                <div class="gallery-item" data-aos="fade-up" data-aos-delay="600" onclick="openModal('https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixlib=rb-4.0.3')">
-                    <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixlib=rb-4.0.3" alt="Equipe com o robô">
-                    <div class="gallery-overlay">
-                        <i class="fas fa-search-plus"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- Contato -->
-    <section class="contact" id="contact">
-        <div class="container">
-            <h2 class="section-title" data-aos="fade-up">Entre em Contato</h2>
-            
-            <div class="contact-container">
-                <div class="contact-info" data-aos="fade-right">
-                    <h3>Informações de Contato</h3>
-                    
-                    <div class="info-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span>Endereço da Escola/Instituição</span>
-                    </div>
-                    
-                    <div class="info-item">
-                        <i class="fas fa-envelope"></i>
-                        <span>contato@projetotextox.com</span>
-                    </div>
-                    
-                    <div class="info-item">
-                        <i class="fas fa-phone"></i>
-                        <span>(91) 98474-4448</span>
-                    </div>
-                    
-                    <div class="info-item">
-                        <i class="fas fa-calendar-alt"></i>
-                        <span>Disponível para eventos e demonstrações</span>
-                    </div>
-                </div>
-                
-                <div class="contact-form" data-aos="fade-left">
-                    <form id="contactForm">
-                        <div class="form-group">
-                            <label for="name">Nome</label>
-                            <input type="text" id="name" class="form-control" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" class="form-control" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="subject">Assunto</label>
-                            <input type="text" id="subject" class="form-control" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="message">Mensagem</label>
-                            <textarea id="message" class="form-control" required></textarea>
-                        </div>
-                        
-                        <button type="submit" class="btn">Enviar Mensagem</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <a href="#" class="footer-logo">TEXTOX</a>
-                
-                <ul class="footer-links">
-                    <li><a href="#home">Início</a></li>
-                    <li><a href="#about">Projeto</a></li>
-                    <li><a href="#team">Equipe</a></li>
-                    <li><a href="#coach">Técnica</a></li>
-                    <li><a href="#community">Comunidade</a></li>
-                    <li><a href="#gallery">Galeria</a></li>
-                    <li><a href="#contact">Contato</a></li>
-                </ul>
             </div>
             
-            <div class="social-media">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://instagram.com/eetepa_sip_oficial"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
-                <a href="#"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <!-- Imagem 2 - Boto -->
+            <div class="gallery-item" data-aos="fade-up" data-aos-delay="200" onclick="openModal('boto.png')">
+                <img src="boto.png" alt="Boto cor-de-rosa do projeto">
+                <div class="gallery-overlay">
+                    <i class="fas fa-search-plus"></i>
+                </div>
             </div>
             
-            <div class="copyright">
-                <p>&copy; 2025 Projeto Inovador sip robotics- Equipe de Robótica. Todos os direitos reservados.</p>
+            <!-- Imagem 3 - Tecnologia -->
+            <div class="gallery-item" data-aos="fade-up" data-aos-delay="300" onclick="openModal('tecn.png')">
+                <img src="tecn.png" alt="Componentes tecnológicos">
+                <div class="gallery-overlay">
+                    <i class="fas fa-search-plus"></i>
+                </div>
             </div>
-        </div>
-    </footer>
-    
-    <!-- Modal -->
-    <div class="modal" id="imageModal">
-        <div class="modal-content">
-            <span class="close-modal" onclick="closeModal()">&times;</span>
-            <img id="modalImage" src="" alt="">
+            
+            <!-- Imagem 4 - Robô -->
+            <div class="gallery-item" data-aos="fade-up" data-aos-delay="400" onclick="openModal('rotbot.png')">
+                <img src="rotbot.png" alt="Robô do projeto em ação">
+                <div class="gallery-overlay">
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+            
+            <!-- Imagem 5 - Onça -->
+            <div class="gallery-item" data-aos="fade-up" data-aos-delay="500" onclick="openModal('onca.png')">
+                <img src="onca.png" alt="Onça pintada - inspiração do projeto">
+                <div class="gallery-overlay">
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+            
+            <!-- Imagem 6 - Natureza/Tecnologia -->
+            <div class="gallery-item" data-aos="fade-up" data-aos-delay="600" onclick="openModal('images.png')">
+                <img src="images.png" alt="Integração natureza e tecnologia">
+                <div class="gallery-overlay">
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
         </div>
     </div>
-    
-    <!-- Scripts -->
-    <!-- AOS Animation Library -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    
-    <script>
-        // Inicializar AOS
-        AOS.init({
-            duration: 800,
-            easing: 'ease-in-out',
-            once: true
-        });
-        
-        // Barra de progresso
-        window.addEventListener('scroll', function() {
-            const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-            const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-            const scrollProgress = (scrollTop / scrollHeight) * 100;
-            document.getElementById('progressBar').style.width = scrollProgress + '%';
-        });
-        
-        // Navbar scroll
-        window.addEventListener('scroll', function() {
-            const navbar = document.querySelector('.navbar');
-            if (window.scrollY > 50) {
-                navbar.classList.add('scrolled');
-            } else {
-                navbar.classList.remove('scrolled');
-            }
-        });
-        
-        // Menu mobile
-        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
-        const navLinks = document.getElementById('navLinks');
-        
-        mobileMenuBtn.addEventListener('click', function() {
-            navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
-        });
-        
-        // Fechar menu ao clicar em um link
-        document.querySelectorAll('.nav-links a').forEach(link => {
-            link.addEventListener('click', function() {
-                if (window.innerWidth <= 992) {
-                    navLinks.style.display = 'none';
-                }
-            });
-        });
-        
-        // Modal de imagem
-        function openModal(imageSrc) {
-            const modal = document.getElementById('imageModal');
-            const modalImg = document.getElementById('modalImage');
-            
-            modal.style.display = 'flex';
-            modalImg.src = imageSrc;
-            document.body.style.overflow = 'hidden';
-        }
-        
-        function closeModal() {
-            const modal = document.getElementById('imageModal');
-            modal.style.display = 'none';
-            document.body.style.overflow = 'auto';
-        }
-        
-        // Fechar modal ao clicar fora
-        window.addEventListener('click', function(event) {
-            const modal = document.getElementById('imageModal');
-            if (event.target === modal) {
-                closeModal();
-            }
-        });
-        
-        // Formulário de contato
-        const contactForm = document.getElementById('contactForm');
-        
-        contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            const name = document.getElementById('name').value;
-            const email = document.getElementById('email').value;
-            const subject = document.getElementById('subject').value;
-            const message = document.getElementById('message').value;
-            
-            // Simulação de envio (substitua por código Firebase se necessário)
-            alert(`Obrigado, ${name}! Sua mensagem foi recebida. Entraremos em contato em breve.`);
-            contactForm.reset();
-        });
-        
-        // Suavizar scroll
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-                
-                const targetId = this.getAttribute('href');
-                const targetElement = document.querySelector(targetId);
-                
-                if (targetElement) {
-                    window.scrollTo({
-                        top: targetElement.offsetTop - 80,
-                        behavior: 'smooth'
-                    });
-                }
-            });
-        });
-    </script>
-</body>
-</html>
-                
-                
+</section>
